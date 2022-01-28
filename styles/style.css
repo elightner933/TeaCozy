@@ -1,0 +1,95 @@
+/* Universal Styles */
+body {
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 22px;
+    color: seashell;
+    opacity: 0.9;
+    text-align: center;
+    background-color: black;
+}
+
+div {
+    display: flex;
+    align-items: center;
+    background-color: black;
+}
+
+a {
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 22px;
+    color: seashell;
+    opacity: 0.9;
+    text-align: center;
+}
+
+/* Header Styles */
+.header {
+    top: 0;
+    border-bottom: 1px solid seashell;
+    position: fixed;
+    height: 69px;
+    z-index: 10;
+    width: 100%;
+}
+
+.logo {
+    height: 50px;
+    margin-left: 10px;
+}
+
+nav {
+    margin-left: auto;
+    margin-right: 10px;
+}
+
+/* Our Mission Styles */
+.mission {
+    margin-top: 69px;
+    height: 700px;
+    width: 100%;
+    background-image: url("../images/background-images/img-mission-background.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.mission-content {
+    display: block;
+    width: 1200px;
+}
+
+/* Tea of the Month Styles */
+#tea {
+    flex-direction: column;
+    width: 100%;
+}
+
+.tea {
+    justify-content: space-around;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: auto;
+    width: 1000;
+}
+
+.tea-header {
+    display: block;
+    width: 1000;
+}
+
+.tea img {
+    height: 200px;
+    width: 300px;
+}
+
+.tea div {
+    display: block;
+}
+
+/* Locations Styles */
+
+
+/* Contact Info Styles */
+
+
+/* Footer Styles */
